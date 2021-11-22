@@ -15,6 +15,8 @@ function app(){
                     var name = document.getElementById("name")
                     var bio = document.getElementById("bio")
                     var repo = document.getElementById("repo")
+                    var follow = document.getElementById("follow")
+                    var following = document.getElementById("following")
                         img.src = arr[0].avatar_url
                         name.innerHTML = arr[0].login
                         bio.innerHTML = arr[0].bio
@@ -23,5 +25,6 @@ function app(){
                         following.innerHTML = arr[0].following
         })
         document.getElementById("screen").value = ""
+        
     }
 }
