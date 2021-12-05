@@ -4,7 +4,7 @@ function app(){
         alert("Please Write Something !")
     }
     else{
-        fetch("https://api.github.com/users/" + mscreen)
+        fetch(`https://api.github.com/users/${mscreen}`)
             .then(function(data){
                 return data.json()
     })
